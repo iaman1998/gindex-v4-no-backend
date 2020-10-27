@@ -31,11 +31,7 @@
            </div>
            <div :class=" ismobile ? 'column is-full mt-2 mr-0'  : 'column is-full ml-2 mr-0 pl-4 pr-0'">
              <div class="columns is-mobile">
-               <div class="column is-half">
-                 <h2 class="subtitle has-text-netflix-only has-text-weight-bold">
-                   Top Trending
-                 </h2>
-               </div>
+               
                <div class="column pr-4 mr-4 is-half has-text-centered">
                  <span class="icon has-text-weight-bold has-text-netflix" style="cursor: pointer;font-size:18px;">
                    <i class="fas fa-arrow-alt-circle-left" @click="swipeLeft('trend')"></i>
